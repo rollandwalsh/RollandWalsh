@@ -1,4 +1,11 @@
-// Application Colors
+// Fonts
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400italic,400,300,700);
+
+$body-font-family: 'Roboto Condensed', sans-serif;
+$header-font-family: 'Arvo', serif;
+
+// Colors
 $primary-color: #FC0;
 $secondary-color: #F1F1F1;
 $alert-color: #F00;
