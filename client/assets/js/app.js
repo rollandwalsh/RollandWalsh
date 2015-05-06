@@ -12,6 +12,19 @@
   ])
     .config(config)
     .run(run)
+    
+    .controller('MainNav', function() {
+      this.nav = mainNav;
+    })
+    
+/*
+    .directive('contactForm', function(){
+      return {
+        restrict: 'E',
+        templateUrl: 'partials/contact-form.html'
+      };
+    })
+*/
   ;
 
   config.$inject = ['$urlRouterProvider', '$locationProvider'];
@@ -30,5 +43,21 @@
   function run() {
     FastClick.attach(document.body);
   }
+  
+  var mainNav = [
+    {
+      page: 'about',
+      text: 'About'
+    },{
+      page: 'work',
+      text: 'Work'
+    },{
+      page: 'news',
+      text: 'News'
+    },{
+      page: 'contact',
+      text: 'Contact'
+    }
+  ];
 
 })();
