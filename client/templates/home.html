@@ -3,14 +3,11 @@ name: home
 url: /
 ---
 
-<div class="grid-container">
-  <h1>Rolland<span>Walsh</span></h1>
-  <p>I am an <strong>actor</strong> | <strong>producer</strong> | <strong>web developer</strong> | <strong>music lover</strong> in Portland, OR</p>
-  <ul>
-    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+<div class="home-container">
+  <h3>I am</h3>
+  <h1>Rolland<strong>Walsh</strong></h1>
+  <p>[ <strong>actor</strong> | <strong>producer</strong> | <strong>web developer</strong> ] [ <strong>Portland, OR</strong> ]</p>
+  <ul class="social-list" ng-controller="SocialNav as socialNavCtrl">
+    <li ng-repeat="nav in socialNavCtrl.nav"><a href="{{nav.link}}" title="I'm on {{nav.site}}"><i class="fa fa-{{nav.icon}}"></i></a></li>
   </ul>
 </div>
