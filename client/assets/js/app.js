@@ -17,14 +17,9 @@
       this.nav = mainNav;
     })
     
-/*
-    .directive('contactForm', function(){
-      return {
-        restrict: 'E',
-        templateUrl: 'partials/contact-form.html'
-      };
+    .controller('SocialNav', function() {
+      this.nav = socialNav;
     })
-*/
   ;
 
   config.$inject = ['$urlRouterProvider', '$locationProvider'];
@@ -59,5 +54,29 @@
       text: 'Contact'
     }
   ];
+  
+  var socialNav = [
+    {
+      site: 'Facebook',
+      icon: 'facebook',
+      link: 'https://www.facebook.com/rollandwalsh'
+    },{
+      site: 'Twitter',
+      icon: 'twitter',
+      link: 'https://twitter.com/rollandpwalsh'
+    },{
+      site: 'Google +',
+      icon: 'google-plus',
+      link: 'https://plus.google.com/+RollandWalsh'
+    },{
+      site: 'LinkedIn',
+      icon: 'linkedin',
+      link: 'https://www.linkedin.com/in/rollandwalsh'
+    },{
+      site: 'GitHub',
+      icon: 'github',
+      link: 'https://github.com/rollandwalsh'
+    }
+  ]
 
 })();
