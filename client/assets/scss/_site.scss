@@ -1,0 +1,88 @@
+.site-frame {
+  @include grid-frame($orientation: vertical);
+  background-blend-mode: screen;
+  background-position: center center;
+  background-size: cover;
+  &.home {
+    background-color: $primary-color;
+    background-image: url(../img/third-rail-night-alive.jpg);
+  }
+  &.about {
+    background-color: $secondary-color;
+    background-image: url(../img/third-rail-static.jpg);
+  }
+}
+
+.site-nav-content {
+  @include grid-content($size: shrink);
+  font-family: $header-font-family;
+  padding: 0;
+}
+
+.site-nav {
+  @extend %menu-bar;
+  @include menu-bar-style(
+    $background: transparent,
+    $background-hover: $black,
+    $background-active: $primary-color,
+    $color: $black,
+    $color-hover: $primary-color,
+    $color-active: $black,
+    $autocolor: false 
+  );
+  > li > a {
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 300ms ease;
+  }
+}
+
+.social-list {
+  list-style-type: none;
+  li {
+    display: inline-block;
+    a {
+      @extend %button;
+      @include button-size($size: large);
+      @include button-style($color: $black, $style: hollow);
+      border-color: $black;
+      border-radius: 2px;
+      border-width: 2px;
+      color: $black;
+      font-size: rem-calc(24);
+      padding: rem-calc(8 10);
+      &:hover, &:focus {
+        border-color: $black;
+        background-color: $black;
+        color: $primary-color;
+      }
+    }
+  }
+}
+
+.home-container {
+  @include grid-container();
+  margin-top: 20vh;
+  text-align: center;
+  h1 {
+    font-size: rem-calc(64);
+    @include breakpoint(medium down) {font-size: rem-calc(44)}
+  }
+}
+
+.page-title {
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  &:after {
+    content: "";
+    height: 1px;
+    background-color: #ddd;
+    width: 20vw;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
