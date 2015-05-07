@@ -1,0 +1,6 @@
+  <div ng-controller="ActingReviews as actingReviewsCtrl">
+    <blockquote ng-repeat="review in actingReviewsCtrl.reviews">
+      {{review.quote}}
+      <cite><a href="{{review.link}}" title="{{review.title}}">{{review.reviewer}}, {{review.publication}}</a></cite>
+    </blockquote>
+  </div>
