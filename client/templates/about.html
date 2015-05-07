@@ -4,13 +4,14 @@ url: /about
 ---
 
 <div class="grid-container">
-  <h1>Rolland<span>Walsh</span></h1>
-  <p>I am an <strong>actor</strong> | <strong>producer</strong> | <strong>web developer</strong> | <strong>music lover</strong> in Portland, OR</p>
-  <ul>
-    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-  </ul>
+  <h1 class="page-title">About</h1>
+  <p>Hello everyone. This is Rolland. I am an actor and web developer in Portland, Oregon.</p>
+  <p>After growing up in Portland and getting my Bachelor of Arts in Theater Arts at Portland State University, I moved to Boston to earn my Master of Fine Arts in Acting at Harvard University while studying at The American Repertory Theater and The Moscow Art Theater. In 2012, I returned to beautiful Oregon and married an even lovelier lady.</p>
+  <p>Currently, I am a core company member with <a href="http://thirdrailrep.org/" title="Third Rail Repertory Theatre">Third Rail Repertory Theatre</a> and develop websites under the name: <a href="http://firepoint-creative.com/" title="Firepoint Creative">Firepoint Creative</a>.</p>
+  <hr>
+  <div class="text-center">
+    <ul class="social-list" ng-controller="SocialNav as socialNavCtrl">
+      <li ng-repeat="nav in socialNavCtrl.nav"><a href="{{nav.link}}" title="I'm on {{nav.site}}"><i class="fa fa-{{nav.icon}}"></i></a></li>
+    </ul>
+  </div>
 </div>
