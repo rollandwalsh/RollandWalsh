@@ -1,3 +1,5 @@
+a {font-weight: bold}
+
 .site-frame {
   @include grid-frame($orientation: vertical);
   background-blend-mode: screen;
@@ -6,10 +8,28 @@
   &.home {
     background-color: $primary-color;
     background-image: url(../img/third-rail-night-alive.jpg);
+    color: $white;
+    h1, h2, h3, h4, h5, h6, a {color: $white}
+    .site-nav {
+      > li > a {
+        &:hover, &:focus {
+          background: $white;
+          color: $primary-color;
+        }
+      }
+    }
+    .social-list {
+      li a {
+        border-color: $white;
+        &:hover, &:focus {
+          background-color: $white;
+          color: $primary-color;
+        }
+      }
+    }
   }
   &.about {
     background-color: $secondary-color;
-    background-image: url(../img/third-rail-static.jpg);
   }
 }
 
@@ -26,8 +46,8 @@
     $background-hover: $black,
     $background-active: $primary-color,
     $color: $black,
-    $color-hover: $primary-color,
-    $color-active: $black,
+    $color-hover: $white,
+    $color-active: $white,
     $autocolor: false 
   );
   > li > a {
@@ -49,12 +69,12 @@
       border-radius: 2px;
       border-width: 2px;
       color: $black;
-      font-size: rem-calc(24);
+      font-size: rem-calc(20);
       padding: rem-calc(8 10);
       &:hover, &:focus {
         border-color: $black;
         background-color: $black;
-        color: $primary-color;
+        color: $secondary-color;
       }
     }
   }
