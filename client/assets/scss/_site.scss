@@ -5,11 +5,12 @@ a {font-weight: bold}
   background-blend-mode: screen;
   background-position: center center;
   background-size: cover;
-  &.home {
+  &.home {background-image: url(../img/third-rail-night-alive.jpg);}
+  &.home, &.contact {
     background-color: $primary-color;
-    background-image: url(../img/third-rail-night-alive.jpg);
     color: $white;
     h1, h2, h3, h4, h5, h6, a {color: $white}
+    a:hover, a:focus {color: $secondary-color}
     .site-nav {
       > li > a {
         &:hover, &:focus {
@@ -46,7 +47,7 @@ a {font-weight: bold}
     $background-hover: $black,
     $background-active: $primary-color,
     $color: $black,
-    $color-hover: $white,
+    $color-hover: $secondary-color,
     $color-active: $white,
     $autocolor: false 
   );
@@ -93,12 +94,13 @@ a {font-weight: bold}
 .page-title {
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: rem-calc(32);
   position: relative;
   &:after {
     content: "";
     height: 1px;
     background-color: #ddd;
-    width: 20vw;
+    width: 15vw;
     margin: auto;
     position: absolute;
     bottom: 0;
