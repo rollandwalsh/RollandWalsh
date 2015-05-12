@@ -13,19 +13,25 @@
     .config(config)
     .run(run)
     
-    .controller('MainNav', function() {
+    .controller('PageOn', function($scope, $location) {
+      $scope.pageOn = function(route) {
+        return route === $location.path();
+      }
+    })
+
+    .controller('MainNav', function () {
       this.nav = mainNav;
     })
     
-    .controller('SocialNav', function() {
+    .controller('SocialNav', function () {
       this.nav = socialNav;
     })
     
-    .controller('ActingReviews', function() {
+    .controller('ActingReviews', function () {
       this.reviews = actingReviews;
     })
     
-    .directive('actingReviews', function() {
+    .directive('actingReviews', function () {
       return {
         restrict: 'E',
         templateUrl: 'partials/acting-reviews.html'
@@ -119,7 +125,7 @@
       production: 'Static',
       reviewer: 'Barry Johnsaon',
       publication: 'Oregon ArtsWatch',
-      quote: 'Rolland Walsh is hilarious<cite>Barry Johnson, Oregon ArtsWatch',
+      quote: 'Rolland Walsh is hilarious',
       link: 'http://www.orartswatch.org/noises-off-is-farces-all-the-way-down/',
       title: '\'Noises Off\’ is farces all the way down'
     }
