@@ -12,7 +12,7 @@
     <script src="/assets/js/app.js"></script>
   </head>
   <body>
-    <div class="site-frame">
+    <div ng-controller="PageOn" class="site-frame" ng-class="{home:pageOn('/'), about:pageOn('/about'), work:pageOn('/work'), contact:pageOn('/contact')}">
       <nav class="site-nav-content" ng-controller="MainNav as mainNavCtrl">
         <ul class="site-nav">
           <li ng-repeat="nav in mainNavCtrl.nav" ui-sref-active="is-active"><a ui-sref="{{nav.page}}">{{nav.text}}</a></li>
