@@ -3,4 +3,16 @@ name: news
 url: /news
 ---
 
-<h1>News</h1>
+<div class="grid-container">
+  <h1 class="page-title">News</h1>
+  <img src="assets/img/third-rail-static-rolland-walsh.jpg" alt="Rolland Walsh in Static at Third Rail Repertory Theatre - photo by Owen Carey" class="photo float-right">
+  <p>Hello everyone. This is Rolland. I am an actor and web developer in Portland, Oregon.</p>
+  <p>After growing up in Portland and getting my Bachelor of Arts in Theater Arts at Portland State University, I moved to Boston to earn my Master of Fine Arts in Acting at Harvard University while studying at The American Repertory Theater and The Moscow Art Theater. In 2012, I returned to beautiful Oregon and married an even lovelier lady.</p>
+  <p>Currently, I am a core company member with <a href="http://thirdrailrep.org/" title="Third Rail Repertory Theatre">Third Rail Repertory Theatre</a> and develop websites under the name: <a href="http://firepoint-creative.com/" title="Firepoint Creative">Firepoint Creative</a>.</p>
+  <hr>
+  <div class="text-center">
+    <ul class="social-list" ng-controller="SocialNav as socialNavCtrl">
+      <li ng-repeat="nav in socialNavCtrl.nav"><a href="{{nav.link}}" title="I'm on {{nav.site}}"><i class="fa fa-{{nav.icon}}"></i></a></li>
+    </ul>
+  </div>
+</div>
