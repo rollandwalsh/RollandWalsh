@@ -10,6 +10,7 @@ a {font-weight: bold}
     background-color: $primary-color;
     color: $white;
     h1, h2, h3, h4, h5, h6, a {color: $white}
+    hr {border-color: $white}
     a:hover, a:focus {color: $secondary-color}
     .site-nav {
       > li > a {
@@ -28,10 +29,15 @@ a {font-weight: bold}
         }
       }
     }
+    .page-title:after {background-color: $white}
   }
+/*
   &.about {
     background-color: $secondary-color;
+    hr {border-color: $white}
+    .page-title:after {background-color: $white}
   }
+*/
 }
 
 .site-nav-content {
@@ -99,12 +105,38 @@ a {font-weight: bold}
   &:after {
     content: "";
     height: 1px;
-    background-color: #ddd;
+    background-color: $gray;
     width: 15vw;
     margin: auto;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
+  }
+}
+
+.photo {
+  background: $white;
+  box-shadow: 0 0 12px rgba($black, .25);
+  margin-bottom: rem-calc(12);
+  padding: rem-calc(8);
+  &.align-right, &.align-left, &.align-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75vw;
+    text-align: center;
+  }
+  &.align-left {
+    @include breakpoint(medium) {
+      float: left;
+      margin-right: rem-calc(16);
+    }
+  }
+  &.align-right {
+    @include breakpoint(medium) {
+      float: right;
+      margin-left: rem-calc(16);
+    }
   }
 }
