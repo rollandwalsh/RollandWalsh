@@ -140,3 +140,20 @@ a {font-weight: bold}
     }
   }
 }
+
+.resume-list {
+  @include grid-block;
+  @include grid-layout(2);
+  @include breakpoint(medium) {@include grid-layout(4)};
+}
+
+.resume-heading {
+  background-color: $primary-color;
+  color: $white;
+  margin-bottom: rem-calc(16);
+  padding: rem-calc(4 8);
+  .subheader {
+    color: $secondary-color;
+    font-size: 80%;
+  }
+}
