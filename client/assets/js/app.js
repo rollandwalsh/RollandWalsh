@@ -30,6 +30,11 @@
     .controller('ActingReviews', function () {
       this.reviews = actingReviews;
     })
+      
+    .controller('ActingResume', function() {
+      this.theaterRoles = theaterRoles;
+      this.filmAndTvRoles = filmAndTvRoles;
+    })
     
     .directive('actingReviews', function () {
       return {
@@ -97,7 +102,7 @@
       icon: 'github',
       link: 'https://github.com/rollandwalsh'
     }
-  ]
+  ];
   
   var actingReviews = [
     {
@@ -129,6 +134,119 @@
       link: 'http://www.orartswatch.org/noises-off-is-farces-all-the-way-down/',
       title: '\'Noises Off\’ is farces all the way down'
     }
-  ]
+  ];
+
+  var theaterRoles = [
+    {
+      show: 'Static',
+      character: 'Chris',
+      company: 'Third Rail Repertory Theatre',
+      director: 'Scott Yarbrough'
+    },{
+      show: 'The Night Alive',
+      character: 'Kenneth',
+      company: 'Third Rail Repertory Theatre',
+      director: 'Scott Yarbrough'
+    },{
+      show: 'The Beauty Queen of Leenane',
+      character: 'Ray',
+      company: 'Third Rail Repertory Theatre',
+      director: 'Scott Yarbrough'
+    },{
+      show: 'As You Like It',
+      character: 'Touchstone',
+      company: 'American Repertory Theater',
+      director: 'David Hammond'
+    },{
+      show: 'Thom Pain (based on nothing)',
+      character: 'Thom Pain',
+      company: 'OBERON',
+      director: 'Rose Hogan'
+    },{
+      show: 'Noises Off',
+      character: 'Tim',
+      company: 'Third Rail Repertory Theatre',
+      director: 'Scott Yarbrough'
+    },{
+      show: 'A Noble Failure',
+      character: 'Ivan',
+      company: 'Third Rail Repertory Theatre',
+      director: 'Philip Cuomo'
+    },{
+      show: 'BOB: A Life in Five Acts',
+      character: 'Bob',
+      company: 'ART / MXAT Institute',
+      director: 'Shira Milikowsky'
+    },{
+      show: 'Play / Act Without Words II',
+      character: 'Man / B',
+      company: 'ART / MXAT Institute',
+      director: 'Marcus Stern'
+    },{
+      show: 'Nutcracker Turbo',
+      character: 'Nutcracker',
+      company: 'Moscow Art Theater',
+      director: 'János Szász'
+    },{
+      show: 'Seagull',
+      character: 'Constantine',
+      company: 'Moscow Art Theater School',
+      director: 'Igor Zolotovitsky'
+    },{
+      show: 'Tough Titty',
+      character: 'Dr. Pearlman',
+      company: 'ART / MXAT Institute',
+      director: 'Benny Sato Ambush'
+    },{
+      show: 'Nutcracker Turbo',
+      character: 'Nutcracker',
+      company: 'ART / MXAT Institute',
+      director: 'Scott Zigler'
+    },{
+      show: 'Becky\'s New Car',
+      character: 'Chris',
+      company: 'Artist\'s Repertory Theater',
+      director: 'Allen Nause'
+    },{
+      show: 'The History Boys',
+      character: 'Rudge',
+      company: 'Artist\'s Repertory Theater',
+      director: 'Jon Kretzu'
+    },{
+      show: 'Promissing Playwrights (JAW 09/11)',
+      character: 'Various roles',
+      company: 'Portland Center Stage',
+      director: 'Micahel O\Connell & Matt Zrebski'
+    },{
+      show: 'Twelfth Night',
+      character: 'Fabian',
+      company: 'Portland Playhouse',
+      director: 'Brian Weaver'
+    },{
+      show: 'Weekend at Bernies',
+      character: 'Ensemble',
+      company: 'Rolland Walsh & Chris Murray',
+      director: 'Ted Douglass'
+    },{
+      show: 'Love\'s Labours Lost',
+      character: 'Longaville',
+      company: 'Northwest Classical Theater Company',
+      director: 'Michael Mendelson'
+    }
+  ];
+  
+  var filmAndTvRoles = [
+    {
+      project: 'Connection Lost: A Love Story',
+      role: 'lead',
+      medium: 'Web series',
+      producer: 'Malarkey Films, Anna Callahan'
+    },{
+      project: 'Motivations Unlimited',
+      role: 'lead',
+      medium: 'National Film Challenge',
+      producer: 'Malarkey Films, Anna Callahan'
+    }
+  ];
 
 })();
