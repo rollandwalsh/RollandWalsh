@@ -1,0 +1,41 @@
+---
+name: acting-resume
+url: /acting-resume
+---
+
+<div ng-controller="ActingResume as actingResumeCtrl" class="grid-container">
+  <h1 class="page-title">Acting Resume</h1>
+  <p class="text-center"><strong>AEA</strong> // Height <strong>6'1"</strong> // Weight <strong>165 lbs</strong> // Hair <strong>brown</strong> // Voice <strong>bass-barritone</strong></p>
+  <h4 class="resume-heading">Theater <span class="subheader">// Selected Roles</span></h4>
+  <div class="resume-list">
+    <div ng-repeat-start="role in actingResumeCtrl.theaterRoles" class="grid-block"><em>{{role.show}}</em></div>
+    <div class="gird-block">{{role.character}}</div>
+    <div class="gird-block">{{role.company}}</div>
+    <div ng-repeat-end class="gird-block">{{role.director}}</div>
+  </div>
+  <h4 class="resume-heading">Film &amp; Television</h4>
+  <div class="resume-list">
+    <div ng-repeat-start="project in actingResumeCtrl.filmAndTvRoles" class="grid-block"><em>{{project.project}}</em></div>
+    <div class="gird-block">{{project.role}}</div>
+    <div class="gird-block">{{project.medium}}</div>
+    <div ng-repeat-end class="gird-block">{{project.producer}}</div>
+  </div>
+  <h4 class="resume-heading">Training</h4>
+  <h5>Harvard University // <span class="subheader">Master of Fine Arts - Acting</span></h5>
+  <h6>American Repertory Theater / Moscow Art Theater School Institute for Advanced Theater Training</h6>
+  <ul class="no-bullet">
+    <li><strong>Acting</strong> // Scott Zigler, Marcus Stern, Igor Zolotovitsky, Sergey Zemtsov, Thomas Derrah</li>
+    <li><strong>Voice / Dialects / Voiceover</strong> // Nancy Houfek, Karen Kopryanski, Sarah Jessop, Ron Carlos, Will LeBow</li>
+    <li><strong>Singing</strong> // Pamela Murray, Donna Ames, Marina Smirnova</li>
+    <li><strong>Movement</strong> / Suzuki // Andrey Droznin, Natalia Fedorova, Mariya Zorina, Stephen Mitchell-Wright</li>
+    <li><strong>Dance (Jazz, Ballet, Modern)</strong> // Jodi Leigh-Allen, Larissa Dmitrieva, Marina Van Winkle</li>
+    <li><strong>Shakespeare</strong> // David Hammond, Nancy Houfek</li>
+    <li><strong>Stage Combat / Fencing</strong> // Bob Walsh, Robert Najarian, Andrey Uraev</li>
+  </ul>
+  <h5>Portland State University // <span class="subheader">Bachelor of Arts - Theater Arts - Acting</span></h5>
+  <h4 class="resume-heading">Special Skills</h4>
+  <p>Dialects: Proficient in IPA, Non-regional American, American Southern (rhotic and non-rhotic), British (RP and Cockney), Irish (Northern
+and Southern), Russian &middot; Singing &middot; Dancing &middot; Proficient in stage combat &middot; Fencing (rapier & dagger) &middot; Piano &middot; Guitar &middot; Conversational
+Spanish and Russian &middot; Juggling (3 Ball) &middot; Improvisation &middot; Stand-up &middot; Beatboxing &middot; Bicycling &middot; Running &middot; Skateboarding &middot; Basketball &middot;
+Baseball &middot; Swimming &middot; Can solve Rubik’s cube in under three minutes</p>
+</div>

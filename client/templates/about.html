@@ -4,23 +4,21 @@ url: /about
 ---
 
 <div class="grid-container">
-  <div class="grid-content">
-    <h1 class="page-title">About</h1>
-    <img src="assets/img/third-rail-static-rolland-walsh.jpg" alt="Rolland Walsh in Static at Third Rail Repertory Theatre - photo by Owen Carey" class="photo align-right">
-    <p>Hello everyone, this is Rolland. I am an actor and web developer in Portland, Oregon.</p>
-    <p>After growing up in Portland and getting my Bachelor of Arts in Theater Arts at Portland State University, I moved to Boston to earn my Master of Fine Arts in Acting at Harvard University while studying at The American Repertory Theater and The Moscow Art Theater (three month residency in Moscow, Russia).</p> 
-    <p>In 2012, I returned to beautiful Oregon and married an even lovelier lady. I love biking around town, discovering new music, exploring nature, seeing live music, playing with my dogs, traveling the world and seriously, I'm really into music.</p>
-    <p>My wife and I own an amazing store featuring local products called <a href="http://whiterabbit-gifts.com/" title="White Rabbit Gifts | Portland, Oregon Gifts">White Rabbit Gifts</a>, I am a core company member with <a href="http://thirdrailrep.org/" title="Third Rail Repertory Theatre | Portland, Oregon Theater">Third Rail Repertory Theatre</a> and develop websites under the name: <a href="http://firepoint-creative.com/" title="Firepoint Creative | Web Design and Development">Firepoint Creative</a>.</p>
-    <ul class="button-group expand segmented">
-      <li><a ui-sref="acting-resume">Acting Resume</a></li>
-      <li><a ui-sref="professional-resume">Professional Resume</a></li>
-      <li><a ui-sref="work">Work Samples</a></li>
+  <h1 class="page-title">About</h1>
+  <img src="assets/img/third-rail-static-rolland-walsh.jpg" alt="Rolland Walsh in Static at Third Rail Repertory Theatre - photo by Owen Carey" class="photo align-right">
+  <p>Hello everyone, this is Rolland. I am an actor and web developer in Portland, Oregon.</p>
+  <p>After growing up in Portland and getting my Bachelor of Arts in Theater Arts at Portland State University, I moved to Boston to earn my Master of Fine Arts in Acting at Harvard University while studying at The American Repertory Theater and The Moscow Art Theater (three month residency in Moscow, Russia).</p> 
+  <p>In 2012, I returned to beautiful Oregon and married an even lovelier lady. I love biking around town, discovering new music, exploring nature, seeing live music, playing with my dogs, traveling the world and seriously, I'm really into music.</p>
+  <p>My wife and I own an amazing store featuring local products called <a href="http://whiterabbit-gifts.com/" title="White Rabbit Gifts | Portland, Oregon Gifts">White Rabbit Gifts</a>, I am a core company member with <a href="http://thirdrailrep.org/" title="Third Rail Repertory Theatre | Portland, Oregon Theater">Third Rail Repertory Theatre</a> and develop websites under the name: <a href="http://firepoint-creative.com/" title="Firepoint Creative | Web Design and Development">Firepoint Creative</a>.</p>
+  <ul class="button-group expand segmented">
+    <li><a ui-sref="acting-resume">Acting Resume</a></li>
+    <li><a ui-sref="professional-resume">Professional Resume</a></li>
+    <li><a ui-sref="work">Work Samples</a></li>
+  </ul>
+  <hr>
+  <div class="text-center">
+    <ul class="social-list" ng-controller="SocialNav as socialNavCtrl">
+      <li ng-repeat="nav in socialNavCtrl.nav"><a href="{{nav.link}}" title="I'm on {{nav.site}}"><i class="fa fa-{{nav.icon}}"></i></a></li>
     </ul>
-    <hr>
-    <div class="text-center">
-      <ul class="social-list" ng-controller="SocialNav as socialNavCtrl">
-        <li ng-repeat="nav in socialNavCtrl.nav"><a href="{{nav.link}}" title="I'm on {{nav.site}}"><i class="fa fa-{{nav.icon}}"></i></a></li>
-      </ul>
-    </div>
   </div>
 </div>
