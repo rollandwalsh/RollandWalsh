@@ -21,5 +21,8 @@
     "run-sequence": "^1.0.2",
     "yargs": "^3.6.0"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "foundation-apps": "^1.1.0"
+  }
 }
