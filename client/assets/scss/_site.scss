@@ -141,6 +141,14 @@ a {font-weight: bold}
   }
 }
 
+.about-heading {
+  background-color: $primary-color;
+  color: $white;
+  margin-bottom: rem-calc(0);
+  padding: rem-calc(4 8);
+  text-align: center;
+}
+
 .resume-list {
   @include grid-block;
   @include grid-layout(2);
