@@ -60,8 +60,6 @@
       enabled:false,
       requireBase: false
     });
-
-    $locationProvider.hashPrefix('!');
   }
 
   function run() {
@@ -71,19 +69,13 @@
   var mainNav = [
     {
       page: 'home',
-      text: 'Home'
+      text: 'Rolland Walsh'
     },{
       page: 'about',
       text: 'About'
     },{
       page: 'work',
       text: 'Work'
-    },{
-      page: 'news',
-      text: 'News'
-    },{
-      page: 'contact',
-      text: 'Contact'
     }
   ];
   
@@ -518,13 +510,13 @@
         link: 'http://www.creditsinc.com/',
         url: 'creditsinc.com',
         img: 'http://www.creditsinc.com/img/credits_inc.png',
-        desc: 'Custom Wordpress theme for Portland theater copmany'
+        desc: 'Credit compmany - responsiv site built on php with Foundation 4'
       },{
         title: 'C for Chiropractic',
         link: 'http://cforchiropractic.com/',
         url: 'cforchiropractic.com',
         img: 'http://www.cforchiropractic.com/img/logo.png',
-        desc: 'Credit compmany - responsiv site built on php with Foundation 4'
+        desc: 'Informational and appointment setting site for Portland chiropractor'
       },{
         title: 'White Rabbit Gifts',
         link: 'http://whiterabbit-gifts.com/',
