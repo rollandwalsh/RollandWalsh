@@ -34,6 +34,10 @@
     .controller('ActingResume', function() {
 	    this.resume = actingResume;
     })
+      
+    .controller('ProResume', function() {
+	    this.resume = proResume;
+    })
     
     .directive('actingReviews', function () {
       return {
@@ -329,6 +333,136 @@
 		  'Swimming',
 		  'Can solve Rubik’s cube in under three minutes'
 	  ]
+  };
+  
+  var proResume = {
+    profiles: [
+      {
+        title: 'LinkedIn',
+        link: 'https://www.linkedin.com/in/rollandwalsh',
+        desc: 'Rolland Walsh\'s LinkedIn profile'
+      },{
+        title: 'GitHub',
+        link: 'https://www.github.com/rollandwalsh',
+        desc: 'Rolland Walsh\'s GitHub projects'
+      }
+    ],
+    positions: [
+      {
+        company: 'Reliance Network',
+        role: 'Senior Front-End Developer',
+        responsibilities: [
+          'Responsible for front-end development staff hiring, training, growth and production quality',
+          'Oversee all design work and final sign-off for any go-live changes',
+          'Architect for mobile UI/UX for all clients - including ReMax, BHHS, and Century 21',
+          'Develop websites for corporate, regional and independents on the Reliance Network CMS',
+          'Build custom WordPress themes and sites for individual / team real estate brokers'
+        ],
+        startDate: '2013',
+        endDate: 'current'
+      },{
+        company: 'Firepoint Creative',
+        role: 'Owner',
+        responsibilities: [
+          'Plan, design and produce websites, online marketing and advertising for businesses',
+          'Design and execute social media campaigns and strategies for a variety of industries',
+          'Create logos, graphic design elements for the web and physical marketing materials',
+          'Manage SEO/SEM, analytics and email accounts with Google Apps, Analytics, Webmaster Tools'
+        ],
+        startDate: '2005',
+        endDate: 'current'
+      },{
+        company: 'American Repertory Theater',
+        role: 'Marketing Associate',
+        responsibilities: [
+          'Created programs and production designs for two seasons',
+          'Managed google AdWords account',
+          'Coordinated social media planning / implementation',
+          'Staffed and ran marketing events for donors, VIPs',
+          'Redesigned the company’s website - architecture, graphic design, development, content'
+        ],
+        startDate: '2010',
+        endDate: '2012'
+      },{
+        company: 'Side 2 Integrated Marketing',
+        role: 'Lead Developer & Designer / Project Manager',
+        responsibilities: [
+          'Managed the production and execution of all aspects for clients’ online presence',
+          'Dealt directly with customers for updates, requests and customer relations',
+          'Ensured all projects met deadlines and customer satisfaction',
+          'Managed 100+ Google AdWords accounts / 50+ social media campaigns, strategies'
+        ],
+        startDate: '2012',
+        endDate: '2013'
+      },{
+        company: 'John L. Scott',
+        role: 'Real Estate Broker',
+        responsibilities: [
+          'Acted as liaison between clients and buyer / seller agent on real estate transactions',
+          'Documented all contracts and correspondence concerning agency or transaction',
+          'Provided clients with consultation regarding home styles, value, location'
+        ],
+        startDate: '2008',
+        endDate: '2010'
+      }
+    ],
+    education: [
+      {
+        school: 'Harvard University',
+        degree: 'Master of Fine Arts',
+        focus: 'Acting',
+        year: '2012'
+      },{
+        school: 'Portland State University',
+        degree: 'Beachelor of Arts',
+        focus: 'Theater Arts',
+        year: '2010'
+      }
+    ],
+    skills: [
+      {
+        area: 'Languages',
+        skills: [
+          'HTML',
+          'CSS',
+          'Javascript',
+          'PHP'
+        ]
+      },{
+        area: 'Libraries // Extensions // Frameworks',
+        skills: [
+          'Sass & Less',
+          'jQuery',
+          'Node.js',
+          'npm',
+          'Angular.js',
+          'Bootstrap',
+          'Foundation'
+        ]
+      },{
+        area: 'Environments // Applications',
+        skills: [
+          'Git',
+          'Agile workflow',
+          'Adobe CS',
+          'Coda',
+          'Visual Studio',
+          'cPanel'
+        ]
+      },{
+        area: 'CMS',
+        skills: [
+          'WordPress',
+          'Drupal'
+        ]
+      },{
+        area: 'Certifications',
+        skills: [
+          'Google AdWords certified',
+          'Google Apps reseller'
+        ]
+      }
+    ]
   };
 
 })();
