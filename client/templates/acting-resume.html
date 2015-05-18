@@ -5,6 +5,7 @@ url: /acting-resume
 
 <div ng-controller="ActingResume as actingResumeCtrl" class="grid-container">
   <h1 class="page-title">Acting Resume</h1>
+  <h2 class="text-center">Rolland Walsh</h2>
   <p class="text-center">
 	  <span ng-repeat="vital in actingResumeCtrl.resume.vitals">{{vital.key}} <strong>{{vital.data}}</strong>{{$last ? '' : ' // '}}</span>
 	</p>
