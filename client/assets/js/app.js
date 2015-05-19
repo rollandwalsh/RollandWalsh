@@ -69,7 +69,7 @@
   var mainNav = [
     {
       page: 'home',
-      text: 'Rolland Walsh'
+      text: 'Home'
     },{
       page: 'about',
       text: 'About'
