@@ -487,61 +487,61 @@
         title: 'ReMax of Illinois (mobile site)',
         link: 'http://m.illinoisproperty.com/',
         url: 'm.illinoisproperty.com',
-        img: 'http://media.reliancenetwork.com/dyna_images/agents/94/113805/20081111134441.GIF',
+        img: '/assets/img/portfolio/remax-illinois.png',
         desc: 'Example of the m. version of sites for many real estate companies (UI/UX architect)'
       },{
         title: 'Dale Sorensen Real Estate',
         link: 'http://www.sorensenrealestate.com/',
         url: 'sorensenrealestate.com',
-        img: 'http://activerain.trulia.com/image_store/uploads/5/2/5/7/3/ar132640483137525.jpg',
+        img: '/assets/img/portfolio/sorensen.png',
         desc: 'Large Florida real estate company'
       },{
         title: 'Berkshire Hathaway Homeservices Troth, Realtors',
         link: 'http://www.bhhstroth.com/',
         url: 'bhhstroth.com',
-        img: 'http://images.marketleader.com/Logos/98/279298.jpg',
+        img: '/assets/img/portfolio/bhhs-troth.png',
         desc: 'One of many Berkshire Hathaway Homeservices sites built'
       },{
         title: 'Westlake Development Group',
         link: 'http://westlakedevelopmentllc.com/',
         url: 'westlakedevelopmentllc.com',
-        img: 'http://westlakedevelopmentllc.com/wp-content/uploads/2014/07/WestlakeLogo_Blk.png',
+        img: '/assets/img/portfolio/westlake.png',
         desc: 'Portfolio and blog site for Pacific North West custom home builders'
       },{
         title: 'Huff Realty Properties of Distinction',
         link: 'http://www.luxury.huff.com/',
         url: 'luxury.huff.com',
-        img: 'http://content.mediastg.net/dynamic/RealEstate/Company/352/account/308150/CustomWebsite/Resources/logo.png',
+        img: '/assets/img/portfolio/huff-luxury.png',
         desc: 'Luxury properties page for Berkshire Hathaway Homeservices affiliate'
       },{
         title: 'Fort Dearborn Insurance',
         link: 'http://fdinsurance.com/',
         url: 'fdinsurance.com',
-        img: 'http://fdinsurance.com/wp-content/themes/fort_dearborn_insurance_agency/assets/img/logo.png',
+        img: '/assets/img/portfolio/fort-dearborn.png',
         desc: 'One of multiple themes of a custom Wordpress design for Homeservices Insurance'
       },{
         title: 'Third Rail Repertory Theatre',
         link: 'http://thirdrailrep.org/',
         url: 'thirdrailrep.org',
-        img: 'http://thirdrailrep.org/wp-content/themes/tr/assets/img/logo.png',
+        img: '/assets/img/portfolio/third-rail.png',
         desc: 'Custom Wordpress theme for Portland theater copmany'
       },{
         title: 'Credits Inc.',
         link: 'http://www.creditsinc.com/',
         url: 'creditsinc.com',
-        img: 'http://www.creditsinc.com/img/credits_inc.png',
+        img: '/assets/img/portfolio/credits-inc.png',
         desc: 'Credit compmany - responsiv site built on php with Foundation 4'
       },{
         title: 'C for Chiropractic',
         link: 'http://cforchiropractic.com/',
         url: 'cforchiropractic.com',
-        img: 'http://www.cforchiropractic.com/img/logo.png',
+        img: '/assets/img/portfolio/c-for-chiro.png',
         desc: 'Informational and appointment setting site for Portland chiropractor'
       },{
         title: 'White Rabbit Gifts',
         link: 'http://whiterabbit-gifts.com/',
         url: 'whiterabbit-gifts.com',
-        img: 'http://whiterabbit-gifts.com/wp-content/themes/wrg/assets/img/images/wrg-logo.png',
+        img: '/assets/img/portfolio/white-rabbit.png',
         desc: 'Quick one-page site for local arts and books store'
       }
     ]
