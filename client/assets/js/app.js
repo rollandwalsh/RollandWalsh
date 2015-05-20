@@ -12,6 +12,7 @@
   ])
     .config(config)
     .run(run)
+    .run(track)
     
     .controller('PageOn', function($scope, $location) {
       $scope.pageOn = function(route) {
@@ -65,6 +66,17 @@
   function run() {
     FastClick.attach(document.body);
   }
+
+  function track($rootScope, $window, $location) {
+    var track = function() {
+      $window.ga("send", "pageview", {
+        page: $location.path()
+      })
+    };
+    
+    $rootScope.$on("$locationChangeSuccess", track)
+  }
+
   
   var mainNav = [
     {
