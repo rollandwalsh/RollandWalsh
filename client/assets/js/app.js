@@ -422,21 +422,20 @@
           'HTML',
           'CSS',
           'Javascript',
-          'PHP'
+          'PHP',
+          'Ruby'
         ]
       },{
-        area: 'Libraries // Extensions // Frameworks',
+        area: 'Libraries // Extensions',
         skills: [
           'Sass & Less',
           'jQuery',
-          'Node.js',
+          'node.js',
           'npm',
           'Angular.js',
-          'Gulp.js',
-          'Grunt.js',
-          'Coffeescript',
-          'Bootstrap',
-          'Foundation'
+          'Gulp',
+          'Grunt',
+          'Coffeescript'
         ]
       },{
         area: 'Environments // Applications',
@@ -444,9 +443,15 @@
           'Git',
           'Agile workflow',
           'Adobe CS',
-          'Coda',
           'Visual Studio',
-          'cPanel'
+          'cPanel',
+          'Coda'
+        ]
+      },{
+        area: 'Frameworks',
+        skills: [
+          'Bootstrap',
+          'Foundation'
         ]
       },{
         area: 'CMS',

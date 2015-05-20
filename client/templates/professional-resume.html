@@ -9,6 +9,15 @@ url: /professional-resume
   <p class="text-center">
 	  <strong>Senior Front-End Developer</strong> // <span ng-repeat="profile in proResumeCtrl.resume.profiles"><a href="{{profile.link}}" title="{{profile.desc}}">{{profile.title}}</a>{{$last ? '' : ' // '}}</span>
 	</p>
+  <h4 class="resume-heading">Skills</h4>
+  <div class="grid-block small-up-1 medium-up-2 large-up-3">
+    <div ng-repeat="skill in proResumeCtrl.resume.skills" class="grid-content">
+      <h5>{{skill.area}}</h5>
+      <ul ng-repeat-end class="fa-ul">
+        <li ng-repeat="skill in skill.skills"><i class="fa-li fa fa-code"></i>{{skill}}</li>
+      </ul>
+    </div>
+  </div>
   <h4 class="resume-heading">Experience</h4>
   <h5 ng-repeat-start="position in proResumeCtrl.resume.positions">{{position.company}} <span class="subheader">// {{position.role}} // {{position.startDate}}-{{position.endDate}}</span></h5>
   <ul ng-repeat-end class="fa-ul">
@@ -17,7 +26,4 @@ url: /professional-resume
   <h4 class="resume-heading">Education</h4>
   <h5 ng-repeat-start="degree in proResumeCtrl.resume.education">{{degree.school}} <span class="subheader">// {{degree.year}}</h5>
   <p ng-repeat-end><strong>{{degree.degree}}</strong> {{degree.focus}}</p>
-  <h4 class="resume-heading">Skills</h4>
-  <h5 ng-repeat-start="skill in proResumeCtrl.resume.skills">{{skill.area}}</h5>
-  <p ng-repeat-end><span ng-repeat="skill in skill.skills">{{skill}}{{$last ? '' : ', '}}</span></p>
 </div>
