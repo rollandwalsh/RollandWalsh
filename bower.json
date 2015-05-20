@@ -1,10 +1,10 @@
 {
-  "name": "foundation-apps-template",
-  "version": "1.1.0",
+  "name": "rollandwalsh",
+  "version": "1.0.0",
   "authors": [
-    "ZURB"
+    "Rolland Walsh"
   ],
-  "description": "Template project for Foundation for Apps by ZURB.",
+  "description": "Rolland Walsh's website (based Foundation for Apps by ZURB).",
   "main": "gulpfile.js",
   "keywords": [
     "framework",
@@ -23,6 +23,7 @@
     "tests"
   ],
   "dependencies": {
-    "foundation-apps": "~1.1.0"
+    "foundation-apps": "~1.1.0",
+    "angular-google-analytics": "~0.0.15"
   }
 }
