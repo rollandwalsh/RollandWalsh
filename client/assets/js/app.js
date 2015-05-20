@@ -61,6 +61,10 @@
       enabled:false,
       requireBase: false
     });
+
+    $locationProvider.html5Mode(true);
+
+    $locationProvider.hashPrefix('!');
   }
 
   function run() {
