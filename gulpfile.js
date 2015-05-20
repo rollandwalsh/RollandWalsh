@@ -1,4 +1,4 @@
-// FOUNDATION FOR APPS TEMPLATE GULPFILE
+// ROLLAND WALSH DOT COM GULP FILE
 // -------------------------------------
 // This file processes all of the assets in the "client" folder, combines them with the Foundation for Apps assets, and outputs the finished files in the "build" folder as a finished app.
 
