@@ -62,7 +62,7 @@
       requireBase: false
     });
 
-    $locationProvider.html5Mode(true);
+//     $locationProvider.html5Mode(true);
 
     $locationProvider.hashPrefix('!');
   }
@@ -442,44 +442,43 @@
           'Ruby'
         ]
       },{
+        area: 'Frameworks',
+        skills: [
+          'jQuery',
+          'Angular.js',
+          'Ruby on Rails',
+          'Bootstrap',
+          'Foundation'
+        ]
+      },{
         area: 'Libraries // Extensions',
         skills: [
           'Sass & Less',
-          'jQuery',
           'node.js',
           'npm',
-          'Angular.js',
           'Gulp',
           'Grunt',
           'Coffeescript'
         ]
       },{
-        area: 'Environments // Applications',
+        area: 'Methodologies',
         skills: [
           'Git',
-          'Agile workflow',
+          'Agile'
+        ]
+      },{
+        area: 'Applications',
+        skills: [
           'Adobe CS',
           'Visual Studio',
           'cPanel',
           'Coda'
         ]
       },{
-        area: 'Frameworks',
-        skills: [
-          'Bootstrap',
-          'Foundation'
-        ]
-      },{
         area: 'CMS',
         skills: [
           'WordPress',
           'Drupal'
-        ]
-      },{
-        area: 'Certifications',
-        skills: [
-          'Google AdWords certified',
-          'Google Apps reseller'
         ]
       }
     ]
