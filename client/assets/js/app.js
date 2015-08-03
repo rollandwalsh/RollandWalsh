@@ -435,34 +435,34 @@
       {
         area: 'Languages',
         skills: [
-          'HTML',
-          'CSS',
-          'Javascript',
+          'HTML5',
+          'CSS3',
+          'JavaScript',
           'PHP',
           'Ruby'
         ]
       },{
         area: 'Frameworks',
         skills: [
+          'Angular.js + Backbone.js',
+          'React',
           'jQuery',
-          'Angular.js',
           'Ruby on Rails',
-          'Bootstrap',
-          'Foundation'
+          'Foundation + Bootstrap'
         ]
       },{
         area: 'Libraries // Extensions',
         skills: [
           'Sass & Less',
-          'node.js',
+          'Node.js',
           'npm',
-          'Gulp',
-          'Grunt',
+          'Gulp + Grunt',
           'Coffeescript'
         ]
       },{
         area: 'Methodologies',
         skills: [
+          'Mobile + Responsive Design',
           'Git',
           'Agile'
         ]
@@ -471,13 +471,14 @@
         skills: [
           'Adobe CS',
           'Visual Studio',
-          'cPanel',
-          'Coda'
+          'Command Line',
+          'Coda',
+          'Sublime Text'
         ]
       },{
         area: 'CMS',
         skills: [
-          'WordPress',
+          'Advanced WordPress',
           'Drupal'
         ]
       }
