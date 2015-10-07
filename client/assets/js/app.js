@@ -488,35 +488,35 @@
   var portfolio = {
     projects: [
       {
-        title: 'ReMax of Illinois (mobile site)',
+        title: 'ReMax (mobile site)',
         link: 'http://m.illinoisproperty.com/',
         url: 'm.illinoisproperty.com',
         img: '/assets/img/portfolio/remax-illinois.png',
-        desc: 'Example of the m. version of sites for many real estate companies (UI/UX architect)'
+        desc: 'm. version of Re/Max sites (UI/UX architect)'
       },{
-        title: 'Dale Sorensen Real Estate',
-        link: 'http://www.sorensenrealestate.com/',
-        url: 'sorensenrealestate.com',
-        img: '/assets/img/portfolio/sorensen.png',
-        desc: 'Large Florida real estate company'
+        title: 'Berkshire Hathaway Homeservices Georgia Commercial',
+        link: 'http://www.commercialga.com/',
+        url: 'commercialga.com',
+        img: '/assets/img/portfolio/bhhs-ga-commercial.png',
+        desc: 'Commercial real estate site with Berkshire Hathaway brand'
       },{
-        title: 'Berkshire Hathaway Homeservices Troth, Realtors',
-        link: 'http://www.bhhstroth.com/',
-        url: 'bhhstroth.com',
-        img: '/assets/img/portfolio/bhhs-troth.png',
-        desc: 'One of many Berkshire Hathaway Homeservices sites built'
-      },{
-        title: 'Westlake Development Group',
-        link: 'http://westlakedevelopmentllc.com/',
-        url: 'westlakedevelopmentllc.com',
-        img: '/assets/img/portfolio/westlake.png',
-        desc: 'Portfolio and blog site for Pacific North West custom home builders'
+        title: 'Berkshire Hathaway Homeservices Smith Mountain Lake',
+        link: 'http://www.smithmtnlake.com/',
+        url: 'smithmtnlake.com',
+        img: '/assets/img/portfolio/bhhs-smith-mtn-lake.png',
+        desc: 'A widescreen site with css animations'
       },{
         title: 'Huff Realty Properties of Distinction',
         link: 'http://www.luxury.huff.com/',
         url: 'luxury.huff.com',
         img: '/assets/img/portfolio/huff-luxury.png',
         desc: 'Luxury properties page for Berkshire Hathaway Homeservices affiliate'
+      },{
+        title: 'Westlake Development Group',
+        link: 'http://westlakedevelopmentllc.com/',
+        url: 'westlakedevelopmentllc.com',
+        img: '/assets/img/portfolio/westlake.png',
+        desc: 'Portfolio and blog site for Pacific North West custom home builders'
       },{
         title: 'Fort Dearborn Insurance',
         link: 'http://fdinsurance.com/',
@@ -534,13 +534,7 @@
         link: 'http://www.creditsinc.com/',
         url: 'creditsinc.com',
         img: '/assets/img/portfolio/credits-inc.png',
-        desc: 'Credit compmany - responsiv site built on php with Foundation 4'
-      },{
-        title: 'C for Chiropractic',
-        link: 'http://cforchiropractic.com/',
-        url: 'cforchiropractic.com',
-        img: '/assets/img/portfolio/c-for-chiro.png',
-        desc: 'Informational and appointment setting site for Portland chiropractor'
+        desc: 'Credit compmany - responsive site built on php with Foundation 4'
       },{
         title: 'White Rabbit Gifts',
         link: 'http://whiterabbit-gifts.com/',
