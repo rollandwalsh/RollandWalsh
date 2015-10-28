@@ -500,12 +500,6 @@
         img: '/assets/img/portfolio/bhhs-ga-commercial.png',
         desc: 'Commercial real estate site with Berkshire Hathaway brand'
       },{
-        title: 'Berkshire Hathaway Homeservices Smith Mountain Lake',
-        link: 'http://www.smithmtnlake.com/',
-        url: 'smithmtnlake.com',
-        img: '/assets/img/portfolio/bhhs-smith-mtn-lake.png',
-        desc: 'A widescreen site with css animations'
-      },{
         title: 'Huff Realty Properties of Distinction',
         link: 'http://www.luxury.huff.com/',
         url: 'luxury.huff.com',
